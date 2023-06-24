@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill-lists {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.skill{
+    padding: 2px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.avatar {
+    width: 100%;
+    display: block;
+}
+
+.data {
+    padding: 32px;
+    padding-top: 24px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.card {
+    width: 470px;
+    height: auto;
+    margin: 40px;
+    border: 30px solid #222;
+}
+
+.card::after {
+    content: "";
+    display: block;
+
+}
